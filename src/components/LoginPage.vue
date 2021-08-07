@@ -1,20 +1,19 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-    </p>
-    
+    <h1>Welcome</h1>
+    <div>
+      <input type="text" placeholder="user">
+    </div>
+    <br>
+    <div>
+      <input type="password" placeholder="password">
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HelloWorld'
 }
 </script>
 
